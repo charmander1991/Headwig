@@ -15,13 +15,13 @@ body, html {
 .terminal {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90vw; /* Adjust width for mobile */
     max-width: 900px;
-    margin: 50px auto;
+    margin: 20px auto; /* Reduce margin for mobile */
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 0 15px rgba(128, 0, 128, 0.7);
-    border: 2px solid #800080;
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.7); /* Reduced shadow */
+    border: 1px solid #800080; /* Thinner border */
 }
 
 /* Terminal header */
@@ -31,18 +31,18 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    border-bottom: 2px solid #800080;
+    padding: 8px; /* Reduced padding */
+    border-bottom: 1px solid #800080;
 }
 
 .header .buttons {
     display: flex;
-    gap: 8px;
+    gap: 6px; /* Reduced gap */
 }
 
 .header .buttons span {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px; /* Reduced button size */
     border-radius: 50%;
     display: inline-block;
 }
@@ -68,11 +68,11 @@ body, html {
 
 /* Terminal body */
 .body {
-    padding: 20px;
+    padding: 15px; /* Reduced padding */
     background: #000000;
     color: #ffffff;
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 14px; /* Slightly smaller font size */
+    line-height: 1.5;
 }
 
 /* Prompt line */
